@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5F6A8D13BC2602005D174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8C13BC2602005D174E /* UIKit.framework */; };
+		8A5F6A8F13BC2602005D174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8E13BC2602005D174E /* Foundation.framework */; };
+		8A5F6A9113BC2602005D174E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A9013BC2602005D174E /* CoreGraphics.framework */; };
+		8A5F6A9713BC2602005D174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6A9513BC2602005D174E /* InfoPlist.strings */; };
+		8A5F6A9913BC2602005D174E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F6A9813BC2602005D174E /* main.m */; };
+		8A5F6A9D13BC2602005D174E /* comboAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F6A9C13BC2602005D174E /* comboAppDelegate.m */; };
+		8A5F6AA013BC2602005D174E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6A9E13BC2602005D174E /* MainStoryboard_iPhone.storyboard */; };
+		8A5F6AA313BC2602005D174E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6AA113BC2602005D174E /* MainStoryboard_iPad.storyboard */; };
+		8A5F6AA513BC2602005D174E /* comboViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6AA413BC2602005D174E /* comboViewController.h */; };
+		8A5F6AA713BC2602005D174E /* comboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F6AA613BC2602005D174E /* comboViewController.m */; };
+		8A5F6AAF13BC2602005D174E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6AAE13BC2602005D174E /* SenTestingKit.framework */; };
+		8A5F6AB013BC2602005D174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8C13BC2602005D174E /* UIKit.framework */; };
+		8A5F6AB113BC2602005D174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8E13BC2602005D174E /* Foundation.framework */; };
+		8A5F6AB213BC2602005D174E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A9013BC2602005D174E /* CoreGraphics.framework */; };
+		8A5F6ABA13BC2602005D174E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6AB813BC2602005D174E /* InfoPlist.strings */; };
+		8A5F6ABC13BC2602005D174E /* comboTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8A5F6ABB13BC2602005D174E /* comboTests.h */; };
+		8A5F6ABE13BC2602005D174E /* comboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F6ABD13BC2602005D174E /* comboTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A5F6AB313BC2602005D174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5F6A7F13BC2602005D174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5F6A8713BC2602005D174E;
+			remoteInfo = combo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A5F6A8813BC2602005D174E /* combo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = combo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5F6A8C13BC2602005D174E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A5F6A8E13BC2602005D174E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A5F6A9013BC2602005D174E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A5F6A9413BC2602005D174E /* combo-Info.plist */ = {isa = PBXFileReference; path = "combo-Info.plist"; sourceTree = "<group>"; };
+		8A5F6A9613BC2602005D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5F6A9813BC2602005D174E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A5F6A9A13BC2602005D174E /* combo-Prefix.pch */ = {isa = PBXFileReference; path = "combo-Prefix.pch"; sourceTree = "<group>"; };
+		8A5F6A9B13BC2602005D174E /* comboAppDelegate.h */ = {isa = PBXFileReference; path = comboAppDelegate.h; sourceTree = "<group>"; };
+		8A5F6A9C13BC2602005D174E /* comboAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comboAppDelegate.m; sourceTree = "<group>"; };
+		8A5F6A9F13BC2602005D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8A5F6AA213BC2602005D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8A5F6AA413BC2602005D174E /* comboViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comboViewController.h; sourceTree = "<group>"; };
+		8A5F6AA613BC2602005D174E /* comboViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comboViewController.m; sourceTree = "<group>"; };
+		8A5F6AAD13BC2602005D174E /* comboTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comboTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5F6AAE13BC2602005D174E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A5F6AB713BC2602005D174E /* comboTests-Info.plist */ = {isa = PBXFileReference; path = "comboTests-Info.plist"; sourceTree = "<group>"; };
+		8A5F6AB913BC2602005D174E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5F6ABB13BC2602005D174E /* comboTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comboTests.h; sourceTree = "<group>"; };
+		8A5F6ABD13BC2602005D174E /* comboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comboTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5F6A8513BC2602005D174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6A8D13BC2602005D174E /* UIKit.framework in Frameworks */,
+				8A5F6A8F13BC2602005D174E /* Foundation.framework in Frameworks */,
+				8A5F6A9113BC2602005D174E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5F6AA913BC2602005D174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6AAF13BC2602005D174E /* SenTestingKit.framework in Frameworks */,
+				8A5F6AB013BC2602005D174E /* UIKit.framework in Frameworks */,
+				8A5F6AB113BC2602005D174E /* Foundation.framework in Frameworks */,
+				8A5F6AB213BC2602005D174E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5F6A7D13BC2602005D174E = {
+			isa = PBXGroup;
+			children = (
+				8A5F6A9213BC2602005D174E /* combo */,
+				8A5F6AB513BC2602005D174E /* comboTests */,
+				8A5F6A8B13BC2602005D174E /* Frameworks */,
+				8A5F6A8913BC2602005D174E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5F6A8913BC2602005D174E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6A8813BC2602005D174E /* combo.app */,
+				8A5F6AAD13BC2602005D174E /* comboTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5F6A8B13BC2602005D174E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6A8C13BC2602005D174E /* UIKit.framework */,
+				8A5F6A8E13BC2602005D174E /* Foundation.framework */,
+				8A5F6A9013BC2602005D174E /* CoreGraphics.framework */,
+				8A5F6AAE13BC2602005D174E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5F6A9213BC2602005D174E /* combo */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6A9B13BC2602005D174E /* comboAppDelegate.h */,
+				8A5F6A9C13BC2602005D174E /* comboAppDelegate.m */,
+				8A5F6A9E13BC2602005D174E /* MainStoryboard_iPhone.storyboard */,
+				8A5F6AA113BC2602005D174E /* MainStoryboard_iPad.storyboard */,
+				8A5F6AA413BC2602005D174E /* comboViewController.h */,
+				8A5F6AA613BC2602005D174E /* comboViewController.m */,
+				8A5F6A9313BC2602005D174E /* Supporting Files */,
+			);
+			path = combo;
+			sourceTree = "<group>";
+		};
+		8A5F6A9313BC2602005D174E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6A9413BC2602005D174E /* combo-Info.plist */,
+				8A5F6A9513BC2602005D174E /* InfoPlist.strings */,
+				8A5F6A9813BC2602005D174E /* main.m */,
+				8A5F6A9A13BC2602005D174E /* combo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A5F6AB513BC2602005D174E /* comboTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6ABB13BC2602005D174E /* comboTests.h */,
+				8A5F6ABD13BC2602005D174E /* comboTests.m */,
+				8A5F6AB613BC2602005D174E /* Supporting Files */,
+			);
+			path = comboTests;
+			sourceTree = "<group>";
+		};
+		8A5F6AB613BC2602005D174E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5F6AB713BC2602005D174E /* comboTests-Info.plist */,
+				8A5F6AB813BC2602005D174E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5F6A8713BC2602005D174E /* combo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5F6AC113BC2602005D174E /* Build configuration list for PBXNativeTarget "combo" */;
+			buildPhases = (
+				8A5F6A8413BC2602005D174E /* Sources */,
+				8A5F6A8513BC2602005D174E /* Frameworks */,
+				8A5F6A8613BC2602005D174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = combo;
+			productName = combo;
+			productReference = 8A5F6A8813BC2602005D174E /* combo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A5F6AAC13BC2602005D174E /* comboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5F6AC413BC2602005D174E /* Build configuration list for PBXNativeTarget "comboTests" */;
+			buildPhases = (
+				8A5F6AA813BC2602005D174E /* Sources */,
+				8A5F6AA913BC2602005D174E /* Frameworks */,
+				8A5F6AAA13BC2602005D174E /* Resources */,
+				8A5F6AAB13BC2602005D174E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5F6AB413BC2602005D174E /* PBXTargetDependency */,
+			);
+			name = comboTests;
+			productName = comboTests;
+			productReference = 8A5F6AAD13BC2602005D174E /* comboTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5F6A7F13BC2602005D174E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ChalmersTH;
+			};
+			buildConfigurationList = 8A5F6A8213BC2602005D174E /* Build configuration list for PBXProject "combo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A5F6A7D13BC2602005D174E;
+			productRefGroup = 8A5F6A8913BC2602005D174E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5F6A8713BC2602005D174E /* combo */,
+				8A5F6AAC13BC2602005D174E /* comboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5F6A8613BC2602005D174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6A9713BC2602005D174E /* InfoPlist.strings in Resources */,
+				8A5F6AA013BC2602005D174E /* MainStoryboard_iPhone.storyboard in Resources */,
+				8A5F6AA313BC2602005D174E /* MainStoryboard_iPad.storyboard in Resources */,
+				8A5F6AA513BC2602005D174E /* comboViewController.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5F6AAA13BC2602005D174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6ABA13BC2602005D174E /* InfoPlist.strings in Resources */,
+				8A5F6ABC13BC2602005D174E /* comboTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A5F6AAB13BC2602005D174E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5F6A8413BC2602005D174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6A9913BC2602005D174E /* main.m in Sources */,
+				8A5F6A9D13BC2602005D174E /* comboAppDelegate.m in Sources */,
+				8A5F6AA713BC2602005D174E /* comboViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5F6AA813BC2602005D174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F6ABE13BC2602005D174E /* comboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A5F6AB413BC2602005D174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5F6A8713BC2602005D174E /* combo */;
+			targetProxy = 8A5F6AB313BC2602005D174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A5F6A9513BC2602005D174E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5F6A9613BC2602005D174E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A5F6A9E13BC2602005D174E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5F6A9F13BC2602005D174E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8A5F6AA113BC2602005D174E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5F6AA213BC2602005D174E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8A5F6AB813BC2602005D174E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5F6AB913BC2602005D174E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A5F6ABF13BC2602005D174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A5F6AC013BC2602005D174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A5F6AC213BC2602005D174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
+				INFOPLIST_FILE = "combo/combo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A5F6AC313BC2602005D174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
+				INFOPLIST_FILE = "combo/combo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A5F6AC513BC2602005D174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/combo.app/combo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
+				INFOPLIST_FILE = "comboTests/comboTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8A5F6AC613BC2602005D174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/combo.app/combo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
+				INFOPLIST_FILE = "comboTests/comboTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5F6A8213BC2602005D174E /* Build configuration list for PBXProject "combo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5F6ABF13BC2602005D174E /* Debug */,
+				8A5F6AC013BC2602005D174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5F6AC113BC2602005D174E /* Build configuration list for PBXNativeTarget "combo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5F6AC213BC2602005D174E /* Debug */,
+				8A5F6AC313BC2602005D174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A5F6AC413BC2602005D174E /* Build configuration list for PBXNativeTarget "comboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5F6AC513BC2602005D174E /* Debug */,
+				8A5F6AC613BC2602005D174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5F6A7F13BC2602005D174E /* Project object */;
+}

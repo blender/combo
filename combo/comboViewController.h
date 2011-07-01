@@ -7,7 +7,36 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ServerController.h"
+#import "TBActionPassingProtocolDelegate.h"
+#import "ClientControllerProtocolDelegate.h"
+#import "ClientController.h"
 
-@interface comboViewController : UIViewController
+@interface comboViewController : UIViewController <UIWebViewDelegate, TBActionPassingProtocolDelegate, ClientControllerProtocolDelegate>{
+
+    UIWebView *_webView;
+    UITextView *_textView;
+    UIButton *_searchButton;
+    UIButton *_connectButton;
+    ServerController *sharedServerController;
+    ClientController *sharedClientController;
+    id<TBActionPassingProtocolDelegate> _delegate;
+    
+    int linkMode;
+
+}
+
++(BOOL)isDeviceAniPad; 
+
+-(IBAction)searchForDevice:(id)sender;
+-(IBAction)connectToDevice:(id)sender;
+
+- (void) jumpActionForPad:(const int)padNumber;
+
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) IBOutlet UIButton *searchButton;
+@property (nonatomic, retain) IBOutlet UIButton *connectButton;
+@property (nonatomic, retain) IBOutlet UITextView *textView;
+@property (nonatomic, assign) id<TBActionPassingProtocolDelegate> delegate;
 
 @end

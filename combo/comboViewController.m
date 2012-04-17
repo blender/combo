@@ -188,6 +188,7 @@
     if (msgActionType == kActionTypeButton){
         
         if(action == kActionJump)
+            _textView.font = [UIFont fontWithName:@"Helvetica" size:20.0f];
             _textView.text = @"Rubaiat Habib Kazi, Kien-Chuan Chua, Shengdong Zhao, Richard C. Davis, Kok-Lim Low. 2011- to appear. SandCanvas: A Multi-touch Art Medium Inspired by Sand Animation.  In Proceedings of the 29th international conference on Human factors in computing systems. ACM, New York, NY, USA. 10 pages." ;   
     }else if(msgActionType == kActionTypeMove){
         

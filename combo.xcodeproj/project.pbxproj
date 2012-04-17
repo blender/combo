@@ -12,6 +12,7 @@
 		8A0CDD0F13BC51F900785D59 /* ServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CDD0E13BC51F900785D59 /* ServerController.m */; };
 		8A0CDD1313BC534500785D59 /* TBMessageBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CDD1213BC534500785D59 /* TBMessageBroker.m */; };
 		8A0CDD1713BC543300785D59 /* TBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CDD1613BC543300785D59 /* TBMessage.m */; };
+		8A55B6861531D861005E7B18 /* text.css in Resources */ = {isa = PBXBuildFile; fileRef = 8A55B6851531D861005E7B18 /* text.css */; };
 		8A5F6A8D13BC2602005D174E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8C13BC2602005D174E /* UIKit.framework */; };
 		8A5F6A8F13BC2602005D174E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A8E13BC2602005D174E /* Foundation.framework */; };
 		8A5F6A9113BC2602005D174E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5F6A9013BC2602005D174E /* CoreGraphics.framework */; };
@@ -57,6 +58,7 @@
 		8A0CDD1513BC543300785D59 /* TBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMessage.h; sourceTree = "<group>"; };
 		8A0CDD1613BC543300785D59 /* TBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMessage.m; sourceTree = "<group>"; };
 		8A0CDD1813BC58F800785D59 /* TBActionPassingProtocolDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBActionPassingProtocolDelegate.h; sourceTree = "<group>"; };
+		8A55B6851531D861005E7B18 /* text.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = text.css; sourceTree = "<group>"; };
 		8A5F6A8813BC2602005D174E /* combo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = combo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5F6A8C13BC2602005D174E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A5F6A8E13BC2602005D174E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -166,6 +168,7 @@
 				8A777E7C13BC61800034347A /* ClientController.m */,
 				8A5F6A9313BC2602005D174E /* Supporting Files */,
 				8ABB7B5813BC33E200F69ECA /* index.html */,
+				8A55B6851531D861005E7B18 /* text.css */,
 				8ABB7B5B13BC3DAE00F69ECA /* alexander.mosaic.jpeg */,
 				8ABB7B5D13BC3F4500F69ECA /* alexander-the-great-map.jpeg */,
 			);
@@ -280,6 +283,7 @@
 				8ABB7B5913BC33E200F69ECA /* index.html in Resources */,
 				8ABB7B5C13BC3DAE00F69ECA /* alexander.mosaic.jpeg in Resources */,
 				8ABB7B5E13BC3F4500F69ECA /* alexander-the-great-map.jpeg in Resources */,
+				8A55B6861531D861005E7B18 /* text.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +405,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -421,7 +425,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,7 +444,7 @@
 				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "combo/combo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,7 +461,7 @@
 				GCC_PREFIX_HEADER = "combo/combo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "combo/combo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
